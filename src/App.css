@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, input, button {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Ubuntu;
+}
+
+#main-container {
+  display: flex;
+  align-items: stretch;
+  height:100vh
+}
+
+#menu {
+  flex:1;
+  background-color: #1f1f1f;
+  padding: 25px;
+}
+
+#menu h1 {
+  color: #F0F0F5
+}
+
+#menu nav a {
+  text-decoration: none;
+  width: 100%;
+  max-width: 120px;
+  height: 32px;
+  border-radius: 2px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 20px;
+  padding:5px;
+}
+
+#menu nav a span {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+#menu nav a span svg {
+  color: #FFF;
+  width: 20px;
+  height: 20px;
+}
+
+#menu nav a strong {
+  flex: 1;
+  margin-left: 16px;
+  color: #FFF;
+}
+
+#menu nav a:hover {
+  background: cadetblue;
+  transition: background-color 0.2s;
+  /* !important */
+}
+
+#projects {
+  flex:3;
+  padding: 25px;
+  background-color: #F0F0F5;
+}
+
+.active {
+  background-color: cadetblue!important;
+}
+
+#blog {
+  flex:3;
+  padding: 25px;
+  background-color: #F0F0F5;
+}
+
+
+
