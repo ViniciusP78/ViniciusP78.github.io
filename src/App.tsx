@@ -5,6 +5,7 @@ import './App.css';
 import { Route, BrowserRouter } from 'react-router-dom';
 
 import Menu from './pages/Menu';
+import Home from './pages/Home'
 import Projects from './pages/Projects';
 import Blog from './pages/Blog';
 
@@ -13,8 +14,11 @@ function App() {
     <div id="main-container">
       <BrowserRouter>
         <Menu />
-        <Route component={Projects} path="/" exact/>
-        <Route component={Blog} path="/blog" exact/>
+        <div id="content">
+          <Route component={Home} path="/" exact/>
+          <Route component={Projects} path="/projects" exact/>
+          <Route component={Blog} path="/blog" exact/>
+        </div>
       </BrowserRouter>
     </div>
   );

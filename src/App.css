@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #menu {
   flex:1;
+  max-width: 350px;
   background-color: #1f1f1f;
   padding: 25px;
 }
@@ -68,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   /* !important */
 }
 
-#projects {
+#content {
   flex:3;
   padding: 25px;
   background-color: #F0F0F5;
@@ -77,12 +78,5 @@ h1, h2, h3, h4, h5, h6 {
 .active {
   background-color: cadetblue!important;
 }
-
-#blog {
-  flex:3;
-  padding: 25px;
-  background-color: #F0F0F5;
-}
-
 
 
