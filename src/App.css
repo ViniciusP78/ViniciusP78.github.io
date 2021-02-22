@@ -1,82 +1,38 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.App {
+  text-align: center;
 }
 
-body, input, button {
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: Ubuntu;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-#main-container {
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
-  align-items: stretch;
-  height:100vh
-}
-
-#menu {
-  flex:1;
-  max-width: 350px;
-  background-color: #1f1f1f;
-  padding: 25px;
-}
-
-#menu h1 {
-  color: #F0F0F5
-}
-
-#menu nav a {
-  text-decoration: none;
-  width: 100%;
-  max-width: 120px;
-  height: 32px;
-  border-radius: 2px;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  margin-top: 20px;
-  padding:5px;
-}
-
-#menu nav a span {
-  display: block;
-  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.2s;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-#menu nav a span svg {
-  color: #FFF;
-  width: 20px;
-  height: 20px;
+.App-link {
+  color: #61dafb;
 }
 
-#menu nav a strong {
-  flex: 1;
-  margin-left: 16px;
-  color: #FFF;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-
-#menu nav a:hover {
-  background: cadetblue;
-  transition: background-color 0.2s;
-  /* !important */
-}
-
-#content {
-  flex:3;
-  padding: 25px;
-  background-color: #F0F0F5;
-}
-
-.active {
-  background-color: cadetblue!important;
-}
-
-
