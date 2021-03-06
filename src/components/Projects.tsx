@@ -1,14 +1,24 @@
 import React from 'react';
 
-import { Divider, Header, Segment } from 'semantic-ui-react';
+import { Card, Divider, Header, Segment } from 'semantic-ui-react';
+import ProjectCard from './ProjectCard';
+
+import projects from '../projects';
 
 const Projects = () => {
+
   return (
-    <Segment attached='bottom'>
+    <Segment stacked>
       <Header as='h1'>
         Projects
       </Header>
       <Divider />
+
+      {
+        
+        projects.map(item => <ProjectCard {...item} />)
+      }
+
     </Segment>
   )
 }

@@ -4,7 +4,7 @@ import { Divider, Header, Segment } from 'semantic-ui-react';
 
 const Overview = () => {
   return (
-    <Segment attached='bottom'>
+    <Segment stacked>
       <Header as='h1'>
         Overview
       </Header>
