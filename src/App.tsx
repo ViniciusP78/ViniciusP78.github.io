@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import { Container, Grid, Segment, Menu, MenuItemProps, Image, Card, Placeholder, List, Button, Flag } from 'semantic-ui-react';
+import { Container, Grid, Menu, MenuItemProps, Image, Card, Placeholder, List } from 'semantic-ui-react';
 import { BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom';
 
 import axios from 'axios';
@@ -55,11 +55,11 @@ function App() { // Adicionar seletor de línguas
             <List>
               <List.Item
                 icon='github'
-                content={<a href='https://github.com/ViniciusP78'>Github</a>}
+                content={<a target='_blank' rel="noreferrer" href='https://github.com/ViniciusP78'>Github</a>}
               />
               <List.Item
                 icon='linkedin'
-                content={<a href='https://www.linkedin.com/in/vinicius-p-44765813a/'>LinkedIn</a>}
+                content={<a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/vinicius-p-44765813a/'>LinkedIn</a>}
               />
             </List>
           </Card.Content>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Card, Divider, Header, Segment } from 'semantic-ui-react';
+import {Divider, Header, Segment } from 'semantic-ui-react';
 import ProjectCard from './ProjectCard';
 
 import projects from '../projects';

@@ -9,6 +9,21 @@ const Overview = () => {
         Overview
       </Header>
       <Divider />
+
+      <Header as='h2'>
+      Sobre mim
+      </Header>
+      <Divider />
+      <p>
+        em construção...
+      </p>
+
+      <Header as='h2'>
+        Formação Acadêmica
+      </Header>
+      <Divider />
+      <Header as='h3'>Analista de Sistemas (2019 - Atualmente)</Header>
+      <Header as='h3'>Técnico em Informática para Internet (2016 - 2018)</Header>
     </Segment>
   )
 }
