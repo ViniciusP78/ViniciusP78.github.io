@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import { Container, Grid, Menu, MenuItemProps, Image, Card, Placeholder, List } from 'semantic-ui-react';
-import { BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Link, Route } from 'react-router-dom';
 
 import axios from 'axios';
 
